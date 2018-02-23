@@ -1,0 +1,313 @@
+﻿body {
+    background:#f6f6f6;
+}
+
+/*----------------media queries ----------------*/
+@media all and (min-width: 960px) {
+    body{
+        font-size: 14px;
+    }
+}
+ 
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 18px;
+    }
+}
+ 
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body{
+        font-size: 16px;
+    }
+ 
+}
+
+/*---------------- fin de media queries ----------------*/
+
+.imagenEncabezado{
+    background:#fffdfd;
+}
+
+.imagenLogo{
+    padding: 1% 0 1% 0; 
+    margin:0 auto;
+}
+
+.titulo{
+
+}
+
+.descripcion{
+
+}
+
+.pregunta{
+    width:90%; 
+    border-top: 1px solid #5e5959; 
+    border-right: 1px solid #5e5959; 
+    border-left: 1px solid #5e5959; 
+    -webkit-border-top-left-radius: 6px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-top-left-radius: 6px; 
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px; 
+    float: none;
+    margin-left: auto;
+    margin-right: auto; 
+    background: #5e5959;
+    color: white;
+}
+
+.pregunta hr{
+    margin-top: 0%;     
+    margin-bottom: 0%;
+}
+
+.opcionesPregunta{
+    width:90%; 
+    border-bottom: 1px solid #5e5959; 
+    border-right: 1px solid #5e5959; 
+    border-left: 1px solid #5e5959; 
+    -webkit-border-bottom-left-radius: 6px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-bottom-left-radius: 6px; 
+    -webkit-border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 6px; 
+    float: none;
+    padding-top: 0.5%;
+    margin-left: auto;
+    margin-right: auto; 
+    background:white
+}
+
+.opciones{
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.opcionesTextBox{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.opcionesDDL{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+/* ------------- botones --------------------*/
+
+
+
+.btn-default {
+    padding: 0.15em 0 0.5em 1.5em;
+    margin-bottom: 0.2em;
+    text-indent: 0.4em;
+    font-weight: bold;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-image: url('../Images/unchecked-12.png');
+    background-position: 15%; 
+    width: 4.6em;
+}
+
+
+.btn-default.active {
+    /*background-color: #cdcccc;*/
+    color: white;
+    background-color: #636873;
+    background-image: url('../Images/check-13.png');
+    width: 4.6em;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #980404;
+    border-color:  #af2323;
+    width: 9.0em;
+}
+
+.btn-primary_verde {
+    color: #2B2A22;
+    background-color: #ffffff;
+    border-color:  #5D5858;
+
+}
+
+.btn-primary_verde:hover {
+    background-color: #b3ecad;
+}
+
+.btn-primary_verde.active {
+    color: #2B2A22;
+    background-color: #b3ecad;
+    background-image: url('../Images/check-12.png');
+    width: 4.6em;
+}
+
+.btn-primary_amarillo {
+    color: #2B2A22;
+    background-color: #ffffff;
+    border-color:  #5D5858;
+}
+
+.btn-primary_amarillo:hover {
+    background-color: #f1ecb5;
+}
+
+.btn-primary_amarillo.active {
+ color: #2B2A22;
+    background-color: #f1ecb5;
+    background-image: url('../Images/check-12.png');
+    width: 4.6em;
+    }
+
+.btn-primary_rojo {
+    color: #2B2A22;
+    background-color: #ffffff;
+    border-color:  #5D5858;
+
+}
+
+.btn-primary_rojo:hover {
+    background-color: #d0a19a;
+}
+
+.btn-primary_rojo.active {
+    color: #2B2A22;
+    background-color: #d0a19a;
+    background-image: url('../Images/check-12.png');
+    width: 4.6em;
+}
+
+.btn-default_texto {
+    padding: 0.15em 0 0.5em 1.5em;
+    margin-bottom: 0.2em;
+    text-indent: 0.4em;
+    font-weight: bold;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-image: url('../Images/unchecked-12.png');
+    background-position: 10%; 
+    width: 11.6em;
+}
+
+.btn-default_texto.active {
+    /*background-color: #cdcccc;*/
+    color: white;
+    background-color: #636873;
+    background-image: url('../Images/check-13.png');
+    width: 11.6em;
+}
+/* ------------- botones --------------------*/
+/*----------------media queries ----------------*/
+@media all and (min-width: 960px) {
+    .pregunta p{
+        letter-spacing: 1px;
+    }
+}
+ 
+.labelMatrix{
+    text-align:left;
+   
+}
+
+.btn-RadioGris{ 
+    border-color:  #5D5858;
+}
+
+.containerMatrix5{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row-esp-ab{
+   margin-bottom: 0.3em;
+}
+
+.filaRadio{
+    margin-bottom: 0.3em;
+}
+
+.espacioAbajo{
+    margin-bottom: 0.3em;
+}
+
+.labelAcompañante{
+        text-align:right;
+}
+
+@media (max-width: 770px) and (min-width: 320px) {
+    .labelAcompañante{
+        text-align:left;
+    }
+}
+
+/*---------------- fin de media queries ----------------*/
+.imagen-formulario {
+    border-radius: 50%;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nodisplay{
+    display:none;
+}
+
+.imagenLogo2 {
+    padding: 1% 0 1% 0;
+    margin: 0 auto;
+    width: 40%;
+   /* min-width: 50%;*/
+}
+
+.imagenLogo3 {
+    padding: 1% 0 1% 0;
+    margin: 0 auto;
+    width: 35%;
+    /* min-width: 50%;*/
+}
+
+.imagenBienvenida {
+    padding: 1% 0 1% 0;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.container {
+    
+    width: 100%;
+}
+
+@media all and (max-width: 960px) {
+    .imagenLogo2 {
+        padding: 1% 0 1% 0;
+        margin: 0 auto;
+        width: 70%;
+        min-width: 50%;
+    }
+
+    .imagenBienvenida {
+        padding: 1% 0 1% 0;
+        margin: 0 auto;
+        width: 95%;
+        min-width: 50%;
+    }
+
+    .container{
+        width:90%;
+    }
+}
+ 

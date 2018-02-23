@@ -1,0 +1,305 @@
+﻿.divPopUP
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(166, 166, 166, 0.81) 50% 50%;
+    z-index: 9999;
+    
+}
+
+
+.divGraficoPrincipal
+{
+
+ 
+  width: 80%;
+  min-width: 400px;
+  height: 600px;
+  
+    
+}
+
+.divContainer
+{
+  
+  width: 95%;
+  height: 95%;
+  background-color: #FFFFFF;
+  margin-top: 1%;
+  border-radius: 15px;
+  border: 1px solid #1C2847;
+    
+}
+
+.btn_AceptEstatus
+{
+  color: White;
+  background-color: #4B6C9E;
+  border-style: None;
+  font-weight: bold;
+  height: 25px;
+  width: 50%;
+    
+ }
+ .btn_close
+ {
+     
+    width: 20px;
+    height: 20px;
+    border-style: none;
+    border-radius: 15px;
+    margin-left: 5px;
+    
+}
+
+
+.gv_datosSUC {
+	margin-left:15%;
+	margin-bottom:50px;
+	padding:0px;
+	width:70%;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+	
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+	
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}.gv_datosSUC table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.gv_datosSUC tr:last-child td:last-child {
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.gv_datosSUC table tr:first-child td:first-child {
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}
+.gv_datosSUC table tr:first-child td:last-child {
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+}.gv_datosSUC tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+}.gv_datosSUC tr:hover td{
+	background-color:#f7f7f7;
+		
+
+}
+
+.gv_datosSUC th
+{
+    
+    background-color: #7CB5EC;
+    font-size: 15px;
+    color: #434348;
+    
+}
+.gv_datosSUC td{
+	vertical-align:middle;
+		background:-o-linear-gradient(bottom, #e0e0e0 5%, #f7f7f7 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0e0e0), color-stop(1, #f7f7f7) ); 
+	background:-moz-linear-gradient( center top, #e0e0e0 5%, #f7f7f7 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e0e0", endColorstr="#f7f7f7");	background: -o-linear-gradient(top,#e0e0e0,f7f7f7);
+
+	background-color:#e0e0e0;
+
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:5px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.gv_datosSUC tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.gv_datosSUC tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.gv_datosSUC tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.gv_datosSUC tr:first-child td{
+		background:-o-linear-gradient(bottom, #333333 5%, #333333 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #333333), color-stop(1, #333333) );
+	background:-moz-linear-gradient( center top, #333333 5%, #333333 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#333333", endColorstr="#333333");	background: -o-linear-gradient(top,#333333,333333);
+
+	background-color:#333333;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.gv_datosSUC tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #333333 5%, #333333 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #333333), color-stop(1, #333333) );
+	background:-moz-linear-gradient( center top, #333333 5%, #333333 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#333333", endColorstr="#333333");	background: -o-linear-gradient(top,#333333,333333);
+
+	background-color:#333333;
+}
+.gv_datosSUC tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.gv_datosSUC tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+.Separador
+{
+
+width: 100%;
+float: left; background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(12%,rgba(0,0,0,0.2)), color-stop(13%,rgba(0,0,0,0.2)), color-stop(47%,rgba(0,0,0,0.23)), color-stop(48%,rgba(0,0,0,0.23)), color-stop(80%,rgba(0,0,0,0.2)), color-stop(81%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 12%,rgba(0,0,0,0.2) 13%,rgba(0,0,0,0.23) 47%,rgba(0,0,0,0.23) 48%,rgba(0,0,0,0.2) 80%,rgba(0,0,0,0.2) 81%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 12%,rgba(0,0,0,0.2) 13%,rgba(0,0,0,0.23) 47%,rgba(0,0,0,0.23) 48%,rgba(0,0,0,0.2) 80%,rgba(0,0,0,0.2) 81%,rgba(0,0,0,0) 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+height: 2px;margin-top: 20px;margin-bottom: 20px;    
+    
+}
+
+
+/*.gv_Status {
+	margin:0px;padding:0px;
+	width:100%;
+	border:1px solid #003366;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.gv_Status table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.gv_Status tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.gv_Status table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.gv_Status table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.gv_Status tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.gv_Status tr:hover td{
+	background-color:#00007f;
+		
+
+}
+.gv_Status td{
+	vertical-align:middle;
+	
+	background-color:#667fcc;
+
+	border:1px solid #003366;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:11px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#eaeacc;
+}.gv_Status tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.gv_Status tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.gv_Status tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.gv_Status tr:first-child td{
+		background:-o-linear-gradient(bottom, #003366 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #003366), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #003366 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#003366", endColorstr="#003f7f");	background: -o-linear-gradient(top,#003366,003f7f);
+
+	background-color:#003366;
+	border:0px solid #003366;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.gv_Status tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #003366 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #003366), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #003366 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#003366", endColorstr="#003f7f");	background: -o-linear-gradient(top,#003366,003f7f);
+
+	background-color:#003366;
+}
+.gv_Status tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.gv_Status tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}*/
+
+.gv_Status
+{
+
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+.gv_Status td
+{
+
+padding-left: 6px;
+
+}
+
+.gv_Status tr
+{
+
+border-bottom: 1px solid #F3EBEB;
+height:32px;
+
+}

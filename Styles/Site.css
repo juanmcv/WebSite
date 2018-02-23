@@ -1,0 +1,664 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    /*background: #FFFFFF;
+    font-size: 1.30em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;*/
+}
+
+
+table {
+    border-radius: 29px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Trebuchet M, Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 100%;
+    background-color: #fff;
+    
+    height: 100%;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 0px;
+    height: 100%;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+   
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*--- Pagina saldos----------*/
+
+.Div_chartContainer
+{    
+    position:relative; 
+    margin-left:70px;
+    top: -18px;
+    left: -37px;
+}
+        
+.Div_Grid_Main
+{
+    margin-left:-27px;
+    margin-bottom:62px;     
+}
+
+#scrolly{
+            width: 1000px;
+            height: 190px;
+            overflow: auto;
+            overflow-y: hidden;
+            margin: 0 auto;
+            white-space: nowrap;
+        }
+
+
+#nav,#nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    font-family: "Lucida Sans Unicode",Verdana,Arial,sans-serif;
+    font-size: 13px;
+    height: 34px;
+    list-style: none outside none;
+    margin: 0px auto;
+    text-shadow: 0 -1px 3px #202020;
+    width: 100%;
+
+    /* border radius */
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+
+    /* box shadow */
+    -moz-box-shadow: 0px 3px 3px #cecece;
+    -webkit-box-shadow: 0px 3px 3px #cecece;
+    box-shadow: 0 3px 4px #8b8b8b;
+
+    /* gradient */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5E5E5E), color-stop(0.51, #707070), color-stop(1, #838383));
+    background-image: -moz-linear-gradient(center bottom, #787878 0%, #5E5E5E 50%, #707070 51%, #838383 100%);
+    background-color: #5f5f5f;
+}
+#nav li {
+    border-bottom: 1px solid #575757;
+    border-left: 1px solid #929292;
+    border-right: 1px solid #5d5d5d;
+    border-top: 1px solid #797979;
+    display: block;
+    float: left;
+    height: 34px;
+    position: relative;
+    width: 170px;
+}
+#nav > li:first-child {
+    border-left: 0 none;
+    margin-left: 5px;
+}
+#nav ul {
+    left: -9999px;
+    position: absolute;
+    top: -9999px;
+    z-index: 2;
+    height:34px;
+  
+}
+#nav ul li {
+    background: none repeat scroll 0 0 #838383;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+#nav li a {
+    color: #FFFFFF;
+    display: block;
+    line-height: 34px;
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+
+    /* gradient */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5E5E5E), color-stop(0.51, #707070), color-stop(1, #838383));
+    background-image: -moz-linear-gradient(center bottom, #787878 0%, #5E5E5E 50%, #707070 51%, #838383 100%);
+    background-color: #5f5f5f;
+}
+
+/* keyframes #animation */
+@-webkit-keyframes animation {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+}
+@-moz-keyframes animation {
+    0% {
+        -moz-transform: scale(1);
+    }
+    30% {
+        -moz-transform: scale(1.2);
+    }
+    100% {
+        -moz-transform: scale(1.1);
+    }
+}
+#nav li > a:hover {
+    /* CSS3 animation */
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: animation;
+    -moz-animation-duration: 0.3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+}
+#nav li:hover ul {
+    left: 0;
+    top: 34px;
+    width: 150px;
+}
+
+
+
+/**************/
+
+@import url('demo.css');
+@import url('font-awesome.css');
+
+/* GLOBALS */
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Demo 2 */
+
+.form-2 {
+    /* Size and position */
+    width: 340px;
+    margin-top  : 100px;
+    padding: 15px;
+    height: 225px;
+    position: relative;
+
+    /* Styles */
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+}
+
+.form-2 h1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #bdb5aa;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #EBE6E2;
+    text-shadow: 0 2px 0 rgba(255,255,255,0.8);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.form-2 h1 .log-in,
+.form-2 h1 .sign-up {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.form-2 h1 .log-in {
+    color: #4b6c9e;
+    padding-right: 2px;
+}
+
+.form-2 h1 .sign-up {
+    color:#4b6c9e;
+    padding-left: 2px;
+}
+
+.form-2 .float {
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,1);
+}
+
+.form-2 .float:first-of-type {
+    padding-right: 5px;
+}
+
+.form-2 .float:last-of-type {
+    padding-left: 5px;
+}
+
+.form-2 label {
+    display: block;
+    padding: 0 0 5px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    font-size: 11px;
+}
+
+.form-2 label i {
+    margin-right: 5px; /* Gap between icon and text */
+    display: inline-block;
+    width: 10px;
+}
+
+.form-2 input[type=text],
+.form-2 input[type=password] {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 3px solid #ebe6e2;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.form-2 input[type=text]:hover,
+.form-2 input[type=password]:hover {
+    border-color: #CCC;
+}
+
+.form-2 label:hover ~ input {
+    border-color: #CCC;
+}
+
+.form-2 input[type=text]:focus,
+.form-2 input[type=password]:focus {
+    border-color: #BBB;
+    outline: none; /* Remove Chrome's outline */
+}
+
+.form-2 input[type=submit]
+{
+    /* Size and position */
+    width: 49%;
+    height: 38px;
+    float: left;
+    position: relative;
+
+    /* Styles */
+    box-shadow: inset 0 1px rgba(255,255,255,0.3);
+    border-radius: 3px;
+    cursor: pointer;
+
+    /* Font styles */
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 38px; /* Same as height */
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-2 input[type=submit] {
+   margin-left: 22%;
+    margin-top  : 52px;
+    background: #4b6c9e; /* Fallback */
+    background: -moz-linear-gradient(#4b6c9e, #4b6c9e);
+    background: -ms-linear-gradient(#4b6c9e, #4b6c9e);
+    background: -o-linear-gradient(#4b6c9e, ##4b6c9e);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4b6c9e), to(#4b6c9e));
+    background: -webkit-linear-gradient(#4b6c9e,#4b6c9e);
+    background: linear-gradient(#4b6c9e, #4b6c9e);
+    border: 1px solid #4b6c9e;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(255,255,255,0.3);
+}
+
+
+.form-2 input[type=submit]:hover {
+    box-shadow: 
+        inset 0 1px rgba(255,255,255,0.3), 
+        inset 0 20px 40px rgba(255,255,255,0.15);
+}
+
+.form-2 input[type=submit]:active{
+    top: 1px;
+}
+
+/* Fallback fro broswers that don't support box shadows */
+.no-boxshadow .form-2 input[type=submit]:hover {
+    background: #ffb347;
+}
+
+.form-2 p:last-of-type {
+    clear: both;    
+}
+
+.form-2 .opt {
+    text-align: right;
+    margin-right: 3px;
+}
+
+.form-2 label[for=showPassword] {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.form-2 input[type=checkbox] {
+    vertical-align: middle;
+    margin: -1px 5px 0 1px;
+}
+

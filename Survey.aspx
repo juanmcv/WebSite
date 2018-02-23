@@ -23,6 +23,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <asp:DropDownList ID="ddl_genero" runat="server" AutoPostBack="True" Font-Size="XX-Large" OnSelectedIndexChanged="ddl_genero_SelectedIndexChanged">
+                    <asp:ListItem>seleccione</asp:ListItem>
                     <asp:ListItem>Hombre</asp:ListItem>
                     <asp:ListItem>Mujer</asp:ListItem>
                 </asp:DropDownList>

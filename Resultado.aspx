@@ -18,13 +18,19 @@
         <br />
             <div class="row">
             <div class="col-sm-6">
-                <asp:Label ID="lbl_hombre" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lbl_hombre" runat="server" Text="Label" Font-Size="XX-Large" ForeColor="#000099"></asp:Label>
             </div>
+                  <br />
+                   <br />
                 <div class="col-sm-6">
-                <asp:Label ID="lbl_mujer" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lbl_mujer" runat="server" Text="Label" Font-Size="XX-Large" ForeColor="#660066"></asp:Label>
             </div>
         </div>
          <br />
+           <br />
+           <br />
+           <br />
+           <br />
          <div class="row">
             <div class="col-sm-12">
                 <asp:Button ID="btnlimpiar" runat="server" Text="Limpiar"  OnClick="btnlimpiar_Click"/>

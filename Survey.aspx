@@ -51,6 +51,9 @@
             <div class="col-sm-2">
                 <asp:Button ID="Button7" runat="server" Text="7" class="botonnumerico" OnClick="Button7_Click" />
             </div>
+            <div class="col-sm-2">
+                <asp:Label ID="lblerror" runat="server" Text=""></asp:Label>
+            </div>
         </div>
     </div>
  </form>
